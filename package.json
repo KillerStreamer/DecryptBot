@@ -1,0 +1,40 @@
+{
+    "name": "primeleaks-decrypt-bot",
+    "version": "1.0.0",
+    "description": "PrimeLeaks Decrypt Bot - A powerful FiveM resource decryption bot for Discord with web interface",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "fivem",
+        "decrypt",
+        "discord",
+        "bot",
+        "primeleaks"
+    ],
+    "author": "PrimeLeaks (https://primeleaks.cc)",
+    "license": "ISC",
+    "homepage": "https://primeleaks.cc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/primeleaks/decrypt-bot"
+    },
+    "bugs": {
+        "url": "https://discord.com/invite/wgnsTu24bg"
+    },
+    "dependencies": {
+        "adm-zip": "^0.5.16",
+        "archiver": "^7.0.1",
+        "axios": "^1.9.0",
+        "chacha20": "^0.1.4",
+        "discord.js": "^14.14.1",
+        "express": "^5.1.0",
+        "https-proxy-agent": "^7.0.6",
+        "uuid": "^9.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}

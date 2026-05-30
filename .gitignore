@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Session data
+sessions/*
+!sessions/.gitkeep
+
+# Backup data
+backup/*
+!backup/.gitkeep
+
+# Database files (contains user data)
+src/database/data.json
+src/database/api-keys.json
+src/database/blacklist.json
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Config (if you want to keep it private)
+# config.js

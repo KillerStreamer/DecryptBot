@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeLeaks | Decrypt Portal</title>
+    <link rel="shortcut icon" href="https://primeleaks.cc/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_23.css">
+</head>
+<body>
+    <div id="preloader" class="preloader">
+        <img src="https://primeleaks.cc/logo.png" alt="PrimeLeaks Logo" class="preloader-logo">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                <img src="https://primeleaks.cc/logo.png" alt="PrimeLeaks" class="header-logo">
+                <h1 class="card-title gradient-text">PrimeLeaks Decrypt</h1>
+                <p class="card-description">Enter your session ID to download your decrypted files</p>
+            </div>
+            <div class="card-content">
+                <div>
+                    <input 
+                        type="text" 
+                        id="sessionId" 
+                        class="input" 
+                        placeholder="Enter session ID..."
+                        autocomplete="off"
+                    />
+                    <button class="button button-primary w-full" onclick="checkStatus()">
+                        Check Session
+                    </button>
+                </div>
+                
+                <div id="status"></div>
+                <div id="downloadArea"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="position: fixed; bottom: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; padding: 1.5rem; color: hsl(var(--muted-foreground)); font-size: 0.875rem; background: rgba(10, 13, 20, 0.95); backdrop-filter: blur(20px); border-top: 1px solid rgba(244, 5, 82, 0.2); z-index: 100;">
+        <a href="https://primeleaks.cc" target="_blank" style="color: hsl(var(--muted-foreground)); text-decoration: none; display: flex; align-items: center; gap: 0.75rem; transition: all 0.3s;" onmouseover="this.style.color='#f40552'; this.style.textShadow='0 0 20px rgba(244, 5, 82, 0.5)'" onmouseout="this.style.color='hsl(var(--muted-foreground))'; this.style.textShadow='none'">
+            <img src="https://primeleaks.cc/logo.png" alt="PrimeLeaks" style="width: 24px; height: 24px; border-radius: 50%;">
+            <span style="font-weight: 500;">Powered by PrimeLeaks</span>
+        </a>
+    </footer>
+
+    <script src="script_23.js"></script>
+</body>
+</html>
